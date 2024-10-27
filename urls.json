@@ -1,5 +1,5 @@
 {
-    "URL1": "127.0.0.1",
-    "URL2": "127.0.0.1",
-    "URL3": "127.0.0.1"
+    "Experiments": "https://raw.githubusercontent.com/Fauthog/HLVR/refs/heads/main/JSON/Experiments.json",
+    "Images": "127.0.0.1",
+    "Videos": "127.0.0.1"
 }
