@@ -1,0 +1,24 @@
+{
+    "Target":"HomeLabVR",
+	"Content": "ExperimentList",
+	"Version": 0.1,
+	"Experiments":{
+        "1":{
+            "en":{"title":"Experiment 1", "description":"Experiment 1 description", "image":"image1.png", "image_url":""},
+            "th":{"title":"th Experiment 1 th", "description":"th Experiment 1 description th", "image":"image1_th.png", "image_url":""}
+        },
+        "2":{
+            "en":{"title":"Experiment 2", "description":"Experiment 2 description", "image":"image2", "image_url":""},
+            "th":{"title":"th Experiment 2 th", "description":"th Experiment 2 description th", "image":"image2_th.png", "image_url":""}
+        },
+        "3":{
+            "en":{"title":"Experiment 3", "description":"Experiment 3 description", "image":"image3", "image_url":""},
+            "th":{"title":"th Experiment 3 th", "description":"th Experiment 3 description th", "image":"image3_th.png", "image_url":""}
+        },
+        "4":{
+            "en":{"title":"Experiment 4", "description":"Experiment 4 description", "image":"image4", "image_url":""},
+            "th":{"title":"th Experiment 4 th", "description":"th Experiment 4 description th", "image":"image4_th.png", "image_url":""}
+        }
+    }
+}
+
