@@ -8,15 +8,15 @@
             "th":{"title":"th Experiment 1 th", "description":"th Experiment 1 description th", "image":"image1_th.png", "image_url":""}
         },
         "2":{
-            "en":{"title":"Experiment 2", "description":"Experiment 2 description", "image":"image2", "image_url":"127.0.0.1/images/image1.png"},
+            "en":{"title":"Experiment 2", "description":"Experiment 2 description", "image":"image2", "image_url":"127.0.0.1/images/image2.png"},
             "th":{"title":"th Experiment 2 th", "description":"th Experiment 2 description th", "image":"image2_th.png", "image_url":""}
         },
         "3":{
-            "en":{"title":"Experiment 3", "description":"Experiment 3 description", "image":"image3", "image_url":"127.0.0.1/images/image1.png"},
+            "en":{"title":"Experiment 3", "description":"Experiment 3 description", "image":"image3", "image_url":"127.0.0.1/images/image3.png"},
             "th":{"title":"th Experiment 3 th", "description":"th Experiment 3 description th", "image":"image3_th.png", "image_url":""}
         },
         "4":{
-            "en":{"title":"Experiment 4", "description":"Experiment 4 description", "image":"image4", "image_url":"127.0.0.1/images/image1.png"},
+            "en":{"title":"Experiment 4", "description":"Experiment 4 description", "image":"image4", "image_url":"127.0.0.1/images/image4.png"},
             "th":{"title":"th Experiment 4 th", "description":"th Experiment 4 description th", "image":"image4_th.png", "image_url":""}
         }
     }
