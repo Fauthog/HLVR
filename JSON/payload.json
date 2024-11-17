@@ -67,22 +67,22 @@
         },
         "image1": {
             "uRL": "http://127.0.0.1/images/image1.png",
-            "filename": "IconTH.png",
+            "filename": "image1.png",
             "version": 1
         },
         "image2": {
             "uRL": "http://127.0.0.1/images/image2.png",
-            "filename": "IconTH.png",
+            "filename": "image2.png",
             "version": 1
         },
         "image3": {
             "uRL": "http://127.0.0.1/images/image3.png",
-            "filename": "IconTH.png",
+            "filename": "image3.png",
             "version": 1
         },
         "image4": {
             "uRL": "http://127.0.0.1/images/image4.png",
-            "filename": "IconTH.png",
+            "filename": "image4.png",
             "version": 1
         }
     }
