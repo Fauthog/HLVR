@@ -1,3 +1,5 @@
 {
-    "payload": "https://raw.githubusercontent.com/Fauthog/HLVR/refs/heads/main/JSON/payload.json"
+    "payload": "https://raw.githubusercontent.com/Fauthog/HLVR/refs/heads/main/JSON/payload.json",
+    "files": "https://raw.githubusercontent.com/Fauthog/HLVR/refs/heads/main/JSON/files.json",
+    "menu": "https://raw.githubusercontent.com/Fauthog/HLVR/refs/heads/main/JSON/menutext.json"
 }
