@@ -1,7 +1,7 @@
 {
     "Target":"HomeLabVR",
 	"Content": "ExperimentList",
-	"Version": 0.1,
+	"Version": 1,
 	"Experiments":{
         "1":{
             "en":{"title":"Experiment 1", "description":"Experiment 1 description", "image":"image1.png", "image_url":"127.0.0.1/images/image1.png"},
