@@ -1,5 +1,5 @@
 {
     "experiments": "https://raw.githubusercontent.com/Fauthog/HLVR/refs/heads/main/JSON/experiments.json",
     "files": "https://raw.githubusercontent.com/Fauthog/HLVR/refs/heads/main/JSON/files.json",
-    "menu": "https://raw.githubusercontent.com/Fauthog/HLVR/refs/heads/main/JSON/menu.json"
+    "menu": "https://raw.githubusercontent.com/Fauthog/HLVR/refs/heads/main/JSON/menutext.json"
 }

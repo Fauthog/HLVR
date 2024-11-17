@@ -1,6 +1,6 @@
 {
     "Target": "HomeLabVR",
-    "Content": "FilesOnServer",
+    "Content": "menutext",
     "Version": 1,
     "IconGB": {
         "uRL": "http://127.0.0.1/images/IconGB.png",
