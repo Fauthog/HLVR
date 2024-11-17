@@ -1,7 +1,9 @@
 {
     "Target": "HomeLabVR",
     "Version": 1,
-    "menu": {},
+    "menu": {
+        "abc": "123"
+    },
     "experiments": {
         "Experiments": {
             "1": {
