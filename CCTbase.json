@@ -1,0 +1,28 @@
+{
+    "languages": "en,th",
+    "experiments": {
+        "1": "การหาจุดเดือดของสารบริสุทธิ์และสารผสม/การหาความหนาแน่น",
+        "2": "การระเหยแห้งและการตกผลึก/การสกัดสีจากพืชโดยตัวทำละลาย",
+        "3": "การเปลี่ยนแปลงของสาร",
+        "4": "Biodiesel",
+        "5": "Bioethanol",
+        "6": "Making Yogurt",
+        "7": "Essential oil extraction",
+        "8": "Making soap",
+        "9": "Chemical safety",
+        "10": "Vitamin C analysis",
+        "11": "Chemical reaction: Hydrocarbon and Alkyl halide",
+        "12": "Wine fermentation",
+        "13": "Synthesis of Nylon 6,10",
+        "14": "Force",
+        "15": "Friction force",
+        "16": "Moment and Equivalent force",
+        "17": "Standing wave",
+        "18": "Free fall",
+        "19": "Human anatomy",
+        "20": "Plant structure",
+        "21": "Frog dissection",
+        "22": "Bacteria",
+        "23": "Food Biochemistry"
+    }
+}
