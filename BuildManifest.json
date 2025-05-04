@@ -3,7 +3,7 @@
     "android": {},
     "windows": {
         "pakchunk1-Windows": {
-            "url": "",
+            "url": "https://raw.githubusercontent.com/Fauthog/HLVR/refs/heads/main/pakchunk1-Windows.pak",
             "version": "1",
             "filename": "pakchunk1-Windows.pak",
             "hash": "abc",
