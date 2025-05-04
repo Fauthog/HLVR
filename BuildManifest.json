@@ -8,6 +8,55 @@
             "filename": "pakchunk1-Windows.pak",
             "hash": "abc",
             "size": 1904516
+        },
+        "pakchunk2-Windows": {
+            "url": "https://raw.githubusercontent.com/Fauthog/HLVR/refs/heads/main/pakchunk2-Windows.pak",
+            "version": "1",
+            "filename": "pakchunk2-Windows.pak",
+            "hash": "abc",
+            "size": 8830395
+        },
+        "pakchunk3-Windows": {
+            "url": "https://raw.githubusercontent.com/Fauthog/HLVR/refs/heads/main/pakchunk3-Windows.pak",
+            "version": "1",
+            "filename": "pakchunk3-Windows.pak",
+            "hash": "abc",
+            "size": 1630216
+        },
+        "pakchunk4-Windows": {
+            "url": "https://raw.githubusercontent.com/Fauthog/HLVR/refs/heads/main/pakchunk4-Windows.pak",
+            "version": "1",
+            "filename": "pakchunk4-Windows.pak",
+            "hash": "abc",
+            "size": 13294941
+        },
+        "pakchunk5-Windows": {
+            "url": "https://raw.githubusercontent.com/Fauthog/HLVR/refs/heads/main/pakchunk5-Windows.pak",
+            "version": "1",
+            "filename": "pakchunk5-Windows.pak",
+            "hash": "abc",
+            "size": 972734
+        },
+        "pakchunk101-Windows": {
+            "url": "https://raw.githubusercontent.com/Fauthog/HLVR/refs/heads/main/pakchunk101-Windows.pak",
+            "version": "1",
+            "filename": "pakchunk101-Windows.pak",
+            "hash": "abc",
+            "size": 7636072
+        },
+        "pakchunk108-Windows": {
+            "url": "https://raw.githubusercontent.com/Fauthog/HLVR/refs/heads/main/pakchunk108-Windows.pak",
+            "version": "1",
+            "filename": "pakchunk108-Windows.pak",
+            "hash": "abc",
+            "size": 40838003
+        },
+        "pakchunk109-Windows": {
+            "url": "https://raw.githubusercontent.com/Fauthog/HLVR/refs/heads/main/pakchunk109-Windows.pak",
+            "version": "1",
+            "filename": "pakchunk109-Windows.pak",
+            "hash": "abc",
+            "size": 26016807
         }
     }
 }
