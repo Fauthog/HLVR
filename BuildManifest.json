@@ -1,7 +1,13 @@
 {
     "version": "1",
     "android": {},
-    "windows": {},
-    "videos": {},
-    "images": {}
+    "windows": {
+        "pakchunk1-Windows": {
+            "url": "",
+            "version": "1",
+            "filename": "pakchunk1-Windows.pak",
+            "hash": "abc",
+            "size": 1904516
+        }
+    }
 }
