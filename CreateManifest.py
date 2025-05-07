@@ -23,7 +23,7 @@ def read_ini_config(file_path):
     return config_dict
 
 
-def createDictionary(directory):
+def createDictionary(directory, url):
 
     hasher = hashlib.sha256()
     file_list = {}
@@ -40,7 +40,8 @@ def createDictionary(directory):
                             break
                         hasher.update(data)
                 hash = hasher.hexdigest()
-                file_list[file]= {"filename":file, "path":file_path, "hash":hash, "size":os.path.getsize(file_path)}
+                url_file=url + str(file)
+                file_list[file]= {"filename":file, "path":file_path, "hash":hash, "size":os.path.getsize(file_path), "url":url_file}
     return file_list
 
 
@@ -83,20 +84,21 @@ def main():
     config = read_ini_config(config_path)
 
     # build dictionaries of current files
+    url="192.168.2.222/HLVR/"
     windows_directory = config["base"] + config["windows"]    
-    windows_dictionary = createDictionary(windows_directory)
+    windows_dictionary = createDictionary(windows_directory, url)
 
     android_directory = config["base"] + config["android"]    
-    android_dictionary = createDictionary(android_directory)
+    android_dictionary = createDictionary(android_directory, url)
    
 
     experiment_directory = config["base"] + config["experiment"]    
-    experiment_dictionary = createDictionary(experiment_directory)
+    experiment_dictionary = createDictionary(experiment_directory, url)
     windows_dictionary.update(experiment_dictionary) 
     android_dictionary.update(experiment_dictionary) 
 
     video180_directory = config["video180"]  
-    video180_dictionary = createDictionary(video180_directory)
+    video180_dictionary = createDictionary(video180_directory, url)
    
 
 
@@ -187,11 +189,11 @@ def main():
                 update = True
         
         for entry in manifest["video180"]:
-            if entry not in windows_dictionary:
+            if entry not in video180_dictionary:
                 file_path=os.path.join(config["output"], manifest["video180"][entry]["filename"])
                 try:
                     os.remove(file_path)
-                    print("File deleted successfully.")
+                    print("File deleted successfully1.")
                 except FileNotFoundError:
                     print("The file does not exist.")
                 except PermissionError:
@@ -200,7 +202,7 @@ def main():
                     print(f"An error occurred while deleting the file: {e}")
                     keys_to_delete.append(entry)
             else:
-                if manifest["video180"][entry]["hash"] != windows_dictionary[entry]["hash"]:
+                if manifest["video180"][entry]["hash"] != video180_dictionary[entry]["hash"]:
                     update=True
                     version=int(manifest["video180"][entry]["version"]) + 1
                     windows_dictionary[entry]["version"]=version
@@ -208,7 +210,7 @@ def main():
                     file_path=os.path.join(config["output"], manifest["video180"][entry]["filename"])
                     try:
                         os.remove(file_path)
-                        print("File deleted successfully.")
+                        print("File deleted successfully2.")
                     except FileNotFoundError:
                         print("The file does not exist.")
                     except PermissionError:
