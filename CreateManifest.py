@@ -84,7 +84,7 @@ def main():
     config = read_ini_config(config_path)
 
     # build dictionaries of current files
-    url="192.168.2.222/HLVR/"
+    url="192.168.2.200/HLVR/"
     windows_directory = config["base"] + config["windows"]    
     windows_dictionary = createDictionary(windows_directory, url)
 
@@ -270,9 +270,9 @@ def main():
             manifest["android"][entry].pop("path")
             manifest["android"][entry]["version"]="1"
 
+        
         manifest["windows"]=windows_dictionary
         # manifest["windows"].update(experiment_dictionary)    
-  
         for entry in manifest["windows"]:            
             if "path" in manifest["windows"][entry]:
                 copy_file(manifest["windows"][entry]["path"], config["output"])
