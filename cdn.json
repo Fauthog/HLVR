@@ -1,3 +1,4 @@
 {
-    "cdn": "https://raw.githubusercontent.com/Fauthog/HLVR/refs/heads/main/BuildManifest.json"
+    "cdn": "192.168.2.200/hlvr/BuildManifest.json"
+    //  "cdn": "https://raw.githubusercontent.com/Fauthog/HLVR/refs/heads/main/BuildManifest.json"
 }
