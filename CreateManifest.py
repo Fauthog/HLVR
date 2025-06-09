@@ -78,7 +78,7 @@ def copy_file(source_path, destination_folder):
         print(f"An error occurred while copying the file: {e}")
 
 
-def main():
+def buildManifest():
     # read config
     config_path = "config.ini"  # Replace with your file path
     config = read_ini_config(config_path)
@@ -265,4 +265,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    buildManifest()
