@@ -84,7 +84,7 @@ def buildManifest():
     config = read_ini_config(config_path)
 
     # build dictionaries of current files
-    url="192.168.2.200/HLVR/"
+    url="https://raw.githubusercontent.com/Fauthog/HLVR_temp/refs/heads/main/"
     windows_directory = config["base"] + config["windows"]    
     windows_dictionary = createDictionary(windows_directory, url)
 
