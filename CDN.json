@@ -1,5 +1,5 @@
 {
     "cdn": "https://raw.githubusercontent.com/Fauthog/HLVR_temp/refs/heads/main/BuildManifest.json",
     "media": "https://homelabvr.catre.tggs.kmutnb.ac.th/file-share/HLVR2/media/ServerMedia.json",
-    "subtitles": "https://raw.githubusercontent.com/Fauthog/HLVR_temp/refs/heads/main/ServerSubtitles.json"
+    "subtitles": "https://homelabvr.catre.tggs.kmutnb.ac.th/file-share/HLVR2/subtitles/ServerSubtitles.json"
 }
